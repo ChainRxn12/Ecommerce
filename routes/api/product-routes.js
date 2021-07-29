@@ -26,10 +26,10 @@ router.get('/', (req, res) => {
       }
     ]
   })
-  .then(dbProductData => res.JSON(dbProductData))
+  .then(dbProductData => res.json(dbProductData))
   .catch(err => {
     console.log(err);
-    res.status(500).JSON(err);
+    res.status(500).json(err);
   });
 });
 
@@ -59,10 +59,10 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-  .then(dbProductData => res.JSON(dbProductData))
+  .then(dbProductData => res.json(dbProductData))
   .catch(err => {
     console.log(err);
-    res.status(500).JSON(err);
+    res.status(500).json(err);
   });
 });
 
@@ -149,14 +149,14 @@ router.delete('/:id', (req, res) => {
   })
   .then(dbProductData => {
     if(!dbProductData) {
-      res.status(404).JSON({ message: 'Product Was Not Found!'});
+      res.status(404).json({ message: 'Product Was Not Found!'});
       return;
     }
-    res.JSON(dbProductData);
+    res.json(dbProductData);
   })
   .catch(err => {
     console.log(err);
-    res.status(500).JSON(err);
+    res.status(500).json(err);
   });
 });
 
