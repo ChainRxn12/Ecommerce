@@ -75,4 +75,4 @@ Location: Live Oak, TX
 
 ## Video
 
-[Ecommerce](https://www.youtube.com/watch?v=DIxgtdGuTeU)
+[Ecommerce](https://www.youtube.com/watch?v=uprYtpRwmUM)
