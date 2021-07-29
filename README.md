@@ -27,10 +27,10 @@
 1.  Have node.js installed on your local environment
 2.  Run 'npm install' to acquire all dependencies in package.json file. 
     * Dependencies required: 
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.6.5"
+    * "dotenv": "^10.0.0",
+    * "express": "^4.17.1",
+    * "mysql2": "^2.2.5",
+    * "sequelize": "^6.6.5"
 3.  Include "seed": "node seeds/index.js" in package.json file
 4.  Run 'npm run seed'
 5.  Run 'node server.js'
